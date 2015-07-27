@@ -36,7 +36,6 @@ while j < 4: #index starts at 0
 	j += 1
 
 
-
 print "\n" + "Your current running balance is: $" + str(sum(runningbal))
 
 
