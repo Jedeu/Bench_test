@@ -17,7 +17,7 @@ while start < 5:
 	Transactions.append(goods_only)
 	start += 1
 
-	print Transactions
+print Transactions
 
 
 #Time to calculate the running balance
@@ -36,7 +36,8 @@ while j < 4: #index starts at 0
 	j += 1
 
 
-print "Your current running balance is: " + str(sum(runningbal))
+
+print "\n" + "Your current running balance is: $" + str(sum(runningbal))
 
 
 
